@@ -4,6 +4,12 @@ import { AuthProvider } from './features/auth/context/AuthContext';
 import ProtectedRoute from "./components/ProtectedRoute";
 import PublicRoute from "./components/PublicRoute";
 import ErrorBoundary from "./components/ErrorBoundary";
+import Navbar from "./components/Navbar"; // ← FALTABA ESTA IMPORTACIÓN
+import Login from "./pages/Login"; // ← PROBABLEMENTE TAMBIÉN FALTAN ESTAS
+import Register from "./pages/Register";
+import Posts from "./pages/Posts";
+import PostDetail from "./pages/PostDetail";
+import Profile from "./pages/Profile";
 
 function AppRouter() {
   return (
